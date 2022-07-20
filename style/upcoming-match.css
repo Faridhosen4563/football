@@ -1,3 +1,10 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -27,6 +34,7 @@ header {
 
 .head-text p {
     font-size: 15px;
+    margin-bottom: 30px;
 }
 
 .head-text a {
@@ -41,10 +49,11 @@ header {
 
 .head-image {
     width: 60%;
+    margin-bottom: -4px;
 }
 
-.head-image image {
-    width: 100%;
+.head-image img {
+    width: 80%;
     height: 100%;
 }
 
@@ -90,19 +99,19 @@ main {
 }
 
 .manu-2 a {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 55px;
+    padding-right: 55px;
 }
 
 .manu-3 a {
-    padding-left: 65px;
-    padding-right: 67px;
+    padding-left: 75px;
+    padding-right: 75px;
 
 }
 
 .main-container {
     display: flex;
-    width: 1340px;
+    width: 1321px;
     margin-left: 20px;
 
 }
@@ -110,7 +119,7 @@ main {
 /* Blog  */
 
 .blog {
-    margin-left: 40px;
+    margin-left: 115px;
     margin-top: 20px;
     margin-bottom: 10px;
     display: grid;
@@ -120,9 +129,9 @@ main {
 
 .blog-info {
     margin-bottom: 10px;
-    box-shadow: 2px 2px 2px 2px gray;
+    border: 1px solid #E8E8E8;
     border-radius: 5px;
-    margin-left: 8px;
+    margin-right: 20px;
     padding: 20px 20px;
     display: flex;
     flex-direction: column;
@@ -168,6 +177,10 @@ footer a {
     font-weight: 500;
     font-size: 16px;
     padding-top: 30px;
+}
+
+.social-media {
+    margin-top: 20px;
 }
 
 hr {
