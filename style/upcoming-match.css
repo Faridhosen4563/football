@@ -187,3 +187,150 @@ hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
     width: 80%;
 }
+
+/* Responsive area */
+
+/* For mobile */
+@media only screen and (max-width:688px) {
+
+
+    .head-container {
+        flex-direction: column;
+        width: 90%;
+
+    }
+
+    .head-text {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .head-text h1 {
+        font-size: 30px;
+    }
+
+    .head-text p {
+        font-size: 10px;
+    }
+
+    .head-image {
+        width: 60%;
+        margin-bottom: 0;
+    }
+
+    .head-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .side-manu {
+        background-color: white;
+        width: 90%;
+    }
+
+
+    .blog {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 2px;
+    }
+
+    footer {
+        height: 100%;
+    }
+
+    footer a {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .social-media {
+        padding-bottom: 30px;
+    }
+
+
+
+}
+
+/* for tablet */
+@media only screen and (min-width: 689px) and (max-width:1023px) {
+    .head-container {
+        width: 90%;
+
+    }
+
+    .head-text {
+        width: 60%;
+        margin-left: 50px;
+    }
+
+    .head-text h1 {
+        font-weight: 700;
+        font-size: 34px;
+    }
+
+    .head-text p {
+        font-size: 10px;
+    }
+
+    .head-image {
+        width: 90%;
+    }
+
+    .head-image img {
+        width: 90%;
+        height: 100%;
+    }
+
+    .main-container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .side-manu {
+        width: 90%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: white;
+        margin-bottom: 30px;
+        justify-items: center;
+    }
+
+    .blog {
+        margin-left: 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    footer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-link {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .social-media {
+        padding-bottom: 30px;
+    }
+}
