@@ -91,6 +91,10 @@ main {
 
 }
 
+.side-manu a:hover {
+    background-color: limegreen;
+}
+
 .manu-1 a {
     padding-left: 25px;
     padding-right: 25px;
@@ -240,6 +244,10 @@ hr {
         width: 90%;
     }
 
+    .side-manu a {
+        border: 1px solid rgba(232, 232, 232, 1)
+    }
+
 
     .blog {
         grid-template-columns: repeat(1, 1fr);
@@ -309,6 +317,10 @@ hr {
         justify-items: center;
     }
 
+    .side-manu a {
+        border: 1px solid rgba(232, 232, 232, 1)
+    }
+
     .blog {
         margin-left: 0;
         grid-template-columns: repeat(2, 1fr);
@@ -324,7 +336,7 @@ hr {
     }
 
     .footer-link {
-        width: 80%;
+        width: 70%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
